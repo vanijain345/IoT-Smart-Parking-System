@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# Firebase credentials / service accounts
+serviceAccountKey.json
+**/serviceAccountKey.json
+firebase-service-account*.json
+**/firebase-service-account*.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Local Firebase emulator data
+.firebase/
+
+# Coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
